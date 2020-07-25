@@ -1,0 +1,28 @@
+<%= form_for @student do |f|%>
+<p>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+</p>
+<p>
+  <%= f.label :hometown %>
+  <%= f.text_field :hometown %>
+</p>
+<p>
+  <%= f.label :birthday %>
+  <%= f.date_field :birthday %>
+</p>
+  <%= f.submit %>
+<% end %>
+
+<%# <p> %>
+ <%# <label>Name:</label> %>
+  <%# <%= text_field_tag :name, @student.name %> %>
+<%# </p> %>
+<%# <p> %>
+  <%# <label>Hometown:</label> %>
+  <%# <%= text_field_tag :hometown, @student.hometown %> %>
+<%# </p> %>
+<%# <p> %>
+  <%# <label>Birthday:</label> %>
+  <%# <%= text_field_tag :birthday, @student.birthday %> %>
+<%# </p> %>
