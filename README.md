@@ -12,7 +12,7 @@ Flatiron is building out a new system to keep track of students in its classes. 
 
 ## Instructions
 
-First, fork and clone the lab.
+Fi#rst, fork and clone the lab.
 
 We've provided a seed file so you can have some data to play around with. Run `rake db:seed` to seed the database.
 
