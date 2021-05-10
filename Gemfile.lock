@@ -183,7 +183,7 @@ DEPENDENCIES
   faker
   jbuilder (~> 2.0)
   jquery-rails
-  rails
+  rails (~> 5.0, >= 5.0.7)
   rails-controller-testing
   rspec-rails (>= 2.0.0.beta)
   sass-rails (~> 5.0)
