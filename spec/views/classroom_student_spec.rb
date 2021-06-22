@@ -16,13 +16,13 @@ RSpec.describe "show_view" do
       ClassroomStudent.create(student: oldest_student, classroom: classroom)
   end
 
-  # it "renders student information from the classrooms show view" do
-  #   view.lookup_context.prefixes = %w[students]
-  #   assign(:classroom, classroom)
-  #   assign(:student, classroom.oldest_student)
-  #   render :template => "classrooms/show.html.erb"
-  #   expect(rendered).to match /Grandpa/
-  # end
+  it "renders student information from the classrooms show view" do
+    view.lookup_context.prefixes = %w[students]
+    assign(:classroom, classroom)
+    assign(:student, classroom.oldest_student)
+    render :template => "classrooms/show.html.erb"
+    expect(rendered).to match /Grandpa/
+  end
 
   it "renders a students/student partial" do
     view.lookup_context.prefixes = %w[students]
